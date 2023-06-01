@@ -1,0 +1,144 @@
+.App {
+  text-align: left;
+  
+}
+
+.App-header {
+  background-color: #a3bbec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:rgb(231, 148, 128);
+  text-decoration:none;
+  position: relative;
+  margin: 0px 10px;
+  /* top : -100px; */
+  color:rgb(220, 26, 26);
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid blanchedalmond;
+  font-size:1.3em;
+  font-weight:bold;
+  border-radius:3px;
+  
+}
+
+.App-nav a:hover {
+  color:rgb(139, 186, 194);
+  background-color:rgb(247, 218, 174);
+  
+}
+
+.homepage-border{
+  margin: auto;
+  margin-block: 180px;
+  width: 1500px;
+  justify-content: center;
+  
+  /* background-color:rgb(247, 218, 174); */
+
+  
+}
+
+.orderpage-border{
+  /* padding: 0px 20px 5px 20px; */
+  /* border: 3px solid black; */
+  /* width: 800px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* width:800px;  */
+  margin:0 auto;
+  /* background-color:rgb(140, 223, 220); */
+  /* border: 3px solid black; */
+  /* position: relative; */
+  /* bottom: -20px; */
+
+}
+
+table {
+  /* top: 80px; */
+  border-collapse: separate;
+  /* border-spacing: 0 15px; */
+}
+
+th {
+  background-color: #4287f5;
+  color: white;
+}
+
+th,td {
+  width: 300px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+h2 {
+  color: #e1360c;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome{
+  color: #e1550a;
+  text-align: center;
+  margin:0px,-90px;
+  position: relative;
+  bottom: 100px;
+  
+}
+
+.Intro{
+
+  position: relative;
+  bottom: 100px;
+  padding: 0px 20px 5px 20px;
+
+}
+
+
+.registration-page{
+  margin: auto;
+  margin-block: 120px;
+  width: 1000px;
+  position: relative;
+  /* bottom: 70px; */
+  /* height: 400px; */
+  /* background-color: #cab9d0; */
+  
+}
+
+.submit-button{
+  font-size: 24px;
+  padding: 0px,5px;
+  position: relative;
+  right: -410px;
+}
+
+
+.form-label {
+  display: block;
+  /* margin-bottom: 10px; */
+  width: 100%;
+}
+
+.form-label input {
+  width: 28%;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+}

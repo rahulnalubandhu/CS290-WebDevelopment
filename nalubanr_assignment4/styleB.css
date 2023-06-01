@@ -1,0 +1,66 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: hsla(182, 73%, 80%, 0.879);
+  }
+  
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2d0bb8;
+  }
+  
+  
+  table { 
+    border: 3px solid rgb(222, 8, 8);
+  }
+  
+  tr, th {
+  padding: 10px;
+  border: 2px solid #45c00c;
+  }
+  
+  tr, td {
+  padding: 10px;
+  border: 2px solid #ea069efa;
+  }
+  
+  button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  border: 5px solid #1c00ed83;
+  }
+  
+  
+  #o {
+  font-size: 100px;
+  color: #f1611a;
+  }
+  
+  #s {
+  font-size: 100px;
+  color: #000000;
+  }
+  
+  #u {
+  font-size: 100px;
+  color: #808080	;
+  }
+  
+  a:link {
+  color: rgb(113, 37, 227);
+  }
+  
+  a:visited{
+  color: rgba(254, 106, 1, 0.833);
+  }
+  
+  #s {
+    position: relative;
+    top: 100px;
+    left: 25px;
+  }
+  
+  #u {
+    position: relative;
+    top: 200px;
+    left: 50px;
+  }

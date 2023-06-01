@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e0dcb1;
+  }
+
+h1 {
+    font-family: Georgia, serif;
+    color: #d84800;
+  }
+
+
+table { 
+    border: 3px solid rgb(0, 0, 0);
+}
+
+tr, th {
+  padding: 10px;
+  border: 2px solid #d40000;
+}
+
+tr, td {
+  padding: 10px;
+  border: 2px solid #1c00ed83;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  border: 2px solid #1c00ed83;
+}
+
+
+#o {
+  font-size: 100px;
+  color: #f1611a;
+}
+
+#s {
+  font-size: 100px;
+  color: #000000;
+}
+
+#u {
+  font-size: 100px;
+  color: #808080	;
+}
+
+a:link {
+  color: rgb(255, 0, 0);
+}
+
+a:visited{
+color: rgb(44, 176, 8);
+}
+
+

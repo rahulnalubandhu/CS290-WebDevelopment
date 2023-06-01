@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment: Async + MW</title>
+    <link id="styleSheet" href="style.css" rel="stylesheet" type="text/css">
+    <script src="random.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>View the data for a random person by calling the Random Person API</h1>
+    <p style="font-size:18px;"> How would you like to call the Random Person API ? Clink on the link you want to use.</p>
+    <ul>
+        <li> 
+            <a  style="font-size:18px;" id = "direct_link" href="#" onclick="fetchRandomPerson('direct')"> Click on this link to call the API Directly from the browser</a>
+        </li> <br>
+
+        <li>
+            <a  style="font-size:18px;" id = "express_link" href="#" onclick="fetchRandomPerson('express')"> Click on this link to call the API through Express server</a> 
+        </li>
+    </ul>
+
+
+    <div id="random-person"></div>
+
+    <script src="random.js"></script>
+</body>
+
+</html>

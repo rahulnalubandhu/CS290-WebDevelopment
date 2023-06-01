@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Stock Order Page</title> <!-- This is page for ordering stocks -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1> Order Your Stocks Here </h1> 
+<table id = "stock_order">
+    <caption><h2>Stocks with symbol and price </h2></caption><br> 
+    <thead>
+        <tr style >
+            <th>Company name</th>
+            <th>Stock symbol</th> 
+            <th>Current price</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        <tr>
+            <td>Splunk</td>
+            <td>SPLK</td>
+            <td>137.55</td>
+        </tr>
+        <tr>
+            <td>Microsoft</td>
+            <td>MSFT</td>
+            <td>232.04</td>
+        </tr>
+        <tr>
+            <td>Oracle</td>
+            <td>ORCL</td>
+            <td>67.08</td>
+        </tr>
+        <tr>
+            <td>Snowflake</td>
+            <td>SNOW</td>
+            <td>235.8</td>
+        </tr>
+        <tr>
+            <td>Teradata</td>
+            <td>TDC</td>
+            <td>44.98</td>
+        </tr>
+
+    </tbody>
+
+    
+</table>
+
+
+<br>
+</body>
+</html>
+
+<!-- Form Creations-->
+<form action="/recieved" method="POST"> <!-- using post method -->
+    
+    <label for="symbol">Select a Stock Symbol:</label>
+  <select id="symbol" name="symbol">
+    <option value="SPLK">SPLK</option>
+    <option value="MSFT">MSFT</option>
+    <option value="ORCL">ORCL</option>
+    <option value="SNOW">SNOW</option>
+    <option value="TDC">TDC</option>
+  </select>
+  <br><br>
+  <label for="qnty">Enter Quantity:</label>
+  <input type="number" id="qnty" name="qnty" required> <!-- here required is to get the value without value its not going to submit.-->
+  <br><br>
+  <button type="submit"> Place Order </button>
+
+
+</form>

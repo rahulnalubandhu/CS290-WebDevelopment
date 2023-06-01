@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  background-color: #eeeeee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(97, 64, 35);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+header,
+footer {
+  position: fixed;
+  background-color: #3a98b9;
+  line-height: 1vmin;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  color: rgb(237, 228, 228);
+}
+
+header {
+  top: 0;
+  left: 0;
+  padding-bottom: 20px;
+}
+footer {
+  bottom: 0;
+}
+
+.subtag{
+  color: #10e93b;
+}
+
+nav a {
+  color: #f6e1c0;
+  margin: 0px;
+  padding: 0px 10px;
+}
+/* Refrenced from : https://css-tricks.com/css-link-hover-effects/ */
+
+a {
+  background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:before {
+  content: "";
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  /* height: 3px; */
+}
+
+a:hover {
+  background-position: 0;
+}
+
+a:hover::before {
+  width: 100%;
+}
+
+a {
+  background-image: linear-gradient(to right, #2609e3, #3926e4 50%, #d10a0a 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+td,
+th {
+  width: 180px;
+  margin: 5px auto;
+  border: 3px solid #0e8388;
+  padding: 3px;
+}
+
+input,
+select {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+}
+
+button {
+  background-color: #cea460;
+  color: white;
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: calc(10px + 2vmin);
+
+  /* Refrenced from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+  /* Icon Fade */
+}
+.hvr-icon-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(221, 19, 151, 0);
+}
+
+.hvr-icon-fade .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.hvr-icon-fade:hover .hvr-icon,
+.hvr-icon-fade:focus .hvr-icon,
+.hvr-icon-fade:active .hvr-icon,
+button:hover {
+  color: #0f9e5e;
+}
+
+/* Icon Grow Rotate */
+.hvr-icon-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-grow-rotate .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-grow-rotate:hover .hvr-icon,
+.hvr-icon-grow-rotate:focus .hvr-icon,
+.hvr-icon-grow-rotate:active .hvr-icon,
+.editButton:hover,
+.deleteButton:hover {
+  -webkit-transform: scale(1.5) rotate(12deg);
+  transform: scale(1.5) rotate(12deg);
+}
+
+.deleteButton {
+  color: red;
+  cursor: pointer;
+}
+
+.editButton {
+  color: blue;
+  cursor: pointer;
+}

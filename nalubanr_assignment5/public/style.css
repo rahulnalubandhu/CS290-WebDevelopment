@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #addaf3;
+  }
+
+h1 {
+    font-family: Georgia, serif;
+    color: #d84800;
+    font-size: 25px;
+  }
+
+
+a:link {
+  color: rgb(239, 150, 26);
+}
+
+a:visited{
+color: rgb(212, 8, 168);
+}
+
+
